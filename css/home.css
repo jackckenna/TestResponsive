@@ -23,7 +23,9 @@ header{
 
 footer{
 	width:100%;
-	background:rgba(255,255,255,0.3);
+	text-align: center;
+	margin: 0 auto;
+	height:300px;
 
 }
 
@@ -128,6 +130,11 @@ input {
 
 .contain{
 	padding: 5% 10% 5% 5%;
+}
+
+
+footer > p{
+	color:white;
 }
 
 /*----------------Navigation------------------------*/
@@ -286,6 +293,7 @@ input[type=checkbox]:checked ~ #menu{
 
 	.half-width-image{
 		width:100%;
+		display: inline-block;
 	}
 
 	.half-width-para{
@@ -293,6 +301,7 @@ input[type=checkbox]:checked ~ #menu{
 		width:100%;
 		height: 400px;
 		background: #fff;
+		display: inline-block;
 
 
 	}
@@ -304,7 +313,12 @@ input[type=checkbox]:checked ~ #menu{
 	.button{
 	    margin-bottom: 50%;
 	    width:50%;
-}
+	}
+
+	footer{
+	height:100px;
+
+	}
 
 
 
@@ -385,17 +399,15 @@ textarea {
 	 width:50%;
 }
 
-#linked-in{
+#linked-in,
+#twitter,
+#facebook{
 	width: 10%;
+	padding: 2%;
 }
 
-#twitter{
-	width: 10%;
-}
-
-footer{
-	text-align: center;
-	margin: 0 auto;
+hr{
+	margin: 5%;
 }
 
 
