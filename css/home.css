@@ -41,7 +41,7 @@ section.full-width-para{
 	margin-top: 50%;
 	padding-top:3%;
 	padding-bottom: 3%;
-	padding-left: 0.5%;
+	/*padding-left: 0.5%;*/
 	background-color: #fff;
 	width: 100%;
 
@@ -272,10 +272,11 @@ input[type=checkbox]:checked ~ #menu{
 	/*Make dropdown links appear inline*/
 
 	section.full-width-para{
-		padding: 10%;
-		padding-left: 0.5%;
+		width: 100%;
+		/*padding: 10%;*/
+		/*padding-left: 0.5%;*/
 		background-color: #fff;
-		width: 95%;
+		width: 100%;
 
 	}
 
@@ -394,6 +395,7 @@ textarea {
 
 #search{
 	 margin-top: 50%;
+	 margin-bottom: 50%;
 	 width:50%;
 }
 
