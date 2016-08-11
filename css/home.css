@@ -381,8 +381,21 @@ textarea {
 }
 
 #search{
-	    margin-top: 50%;
-	    width:50%;
+	 margin-top: 50%;
+	 width:50%;
+}
+
+#linked-in{
+	width: 10%;
+}
+
+#twitter{
+	width: 10%;
+}
+
+footer{
+	text-align: center;
+	margin: 0 auto;
 }
 
 
