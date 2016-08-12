@@ -264,6 +264,7 @@ input[type=checkbox]:checked ~ #menu{
 
 	header{
 		position: absolute;
+		text-align: center;
 	}
 
 	div.search-full{
@@ -419,6 +420,18 @@ textarea {
 hr{
 	margin-left: 5%;
     margin-right: 5%;
+}
+
+.image{
+	-webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 4s;
+}
+
+.image:hover{
+	width: 20%;
+	height: 45%;
+
+
 }
 
 
