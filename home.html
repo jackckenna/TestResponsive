@@ -4,7 +4,7 @@
 		<link rel="stylesheet" type="text/css" href="./css/home.css">
 		<link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title> Just Order </title>
+		<title> Find Article </title>
 	</head>
 
 	<body>
@@ -14,11 +14,11 @@
 				<!-- <img src="#" alt="logo"> -->
 				<label for="show-menu" class="show-menu">Show Menu</label>
 				<input type="checkbox" id="show-menu" value="button" class="hidden">
-				<ul id="menu">
-					<li><a href="#">Home</a></li>
-					<li><a href="#search">Find Article</a></li>
-					<li><a href="#contact-me">Contact Us</a></li>
-					<li><a href="#about">About Us</a></li>
+				<ul id="menu" role="menu">
+					<li role="home"><a href="#">Home</a></li>
+					<li role="find-artical" ><a href="#search">Find Article</a></li>
+					<li role="contact"><a href="#contact-me">Contact Us</a></li>
+					<li role="about" ><a href="#about">About Us</a></li>
 
 				</ul>
 			</nav>
@@ -54,11 +54,11 @@
 			</section>
 
 			<section class="half-width-image">
-				<img src="./assets/side-img.jpeg" alt="swimming" id="swim" >
+				<img src="./assets/side-img.jpeg" alt="swimming" id="swim" role="woman-swimming" >
 
 			</section>
 
-			<section id="education">
+			<section id="education" role="educatoin-section">
 				<div class="inside-full">
 					<h3>What is Lorem Ipsum?</h3>
 					<p>
@@ -77,7 +77,7 @@
 			</section>
 
 
-			<section id="about-me">
+			<section id="about-me" role="about-me">
 				<!-- about me (about) -->
 				 <img src="./assets/image-2.jpeg" alt="swimming" id="fire" >
 
@@ -88,7 +88,7 @@
 				<div class="inside-full">
 					<h2>Contact Us</h2>
 				<!-- contact me (mailto) -->
-					<form method="post" action="http://lacedeamon.spartaglobal.com/contactform">
+					<form method="post" action="http://lacedeamon.spartaglobal.com/contactform" role="contact-form">
 						<label for="name">Name</label><br>
 						<input type="text" name="name" id="name" role=textbox /><br>
 
