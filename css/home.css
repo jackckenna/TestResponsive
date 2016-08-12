@@ -135,6 +135,13 @@ footer > p{
 	color:white;
 }
 
+#search{
+	 margin-top: 50%;
+	 margin-bottom: 50%;
+	 width:50%;
+}
+
+
 /*----------------Navigation------------------------*/
 
 nav{
@@ -271,12 +278,19 @@ input[type=checkbox]:checked ~ #menu{
 @media screen and (max-width : 800px){
 	/*Make dropdown links appear inline*/
 
+	div.search-full{
+		height: 200px;	
+		max-width: 960px;
+		margin:0 auto;
+	}
+
+
 	section.full-width-para{
 		width: 100%;
 		/*padding: 10%;*/
 		/*padding-left: 0.5%;*/
 		background-color: #fff;
-		width: 100%;
+		margin-top:90%;
 
 	}
 
@@ -315,11 +329,21 @@ input[type=checkbox]:checked ~ #menu{
 	}
 
 	footer{
-	height:100px;
+
+		height:100px;
 
 	}
 
+	#search {
+		margin-top: 70%; 
+		margin-bottom: 1%; 
 
+	}
+
+	li a {
+		text-decoration: none;
+		padding-right:1px;
+	}
 
 }
 
@@ -391,12 +415,6 @@ textarea {
 /* When the input field gets focus, change its width to 100% */
 #search input[type=text]:focus {
     width: 100%;
-}
-
-#search{
-	 margin-top: 50%;
-	 margin-bottom: 50%;
-	 width:50%;
 }
 
 #linked-in,
