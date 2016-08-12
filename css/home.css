@@ -92,8 +92,7 @@ div.search-full{
 nav h1{
 	padding-left: 3%;
 	display: inline-block;
-
-
+	padding-top: 1%;
 }
 
 .half-width-image{
@@ -245,38 +244,27 @@ input[type=checkbox]:checked ~ #menu{
 
 /*Responsive Styles*/
 
-/*@media screen and (max-width : 800px){
-	/*Make dropdown links appear inline
-	ul {
-		position: static;
-		display: none;
-	}
-
-	li {
-		margin-bottom: 1px;
-	}
-	Make all menu links full width
-	ul li, li a {
-		width: 100%;
-	}
-
-	.show-menu {
-		display:block;
-	}
-
-	li a {
-	color:white;
-	display:block;
-	min-width:200px;
-	height: 50px;
-	line-height: 50px;
-	background: #2f3036
-
-
-} */
-
 @media screen and (max-width : 800px){
+
+
+	#search{
+		margin-top: 40%;
+
+	}
+
+	section.full-width-para{
+		margin-top: 70%;
+	}
+
+
+} 
+
+@media screen and (max-width : 650px){
 	/*Make dropdown links appear inline*/
+
+	header{
+		position: absolute;
+	}
 
 	div.search-full{
 		height: 200px;	
@@ -320,7 +308,7 @@ input[type=checkbox]:checked ~ #menu{
 	}
 
 	.contain{
-		padding: 3%;
+		margin-left: 5%;
 	}
 
 	.button{
@@ -343,6 +331,10 @@ input[type=checkbox]:checked ~ #menu{
 	li a {
 		text-decoration: none;
 		padding-right:1px;
+	}
+
+	section#about-me, #fire{
+		height: 300px;
 	}
 
 }
